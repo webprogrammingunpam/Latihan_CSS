@@ -1,0 +1,84 @@
+.hello {
+    color: aqua;
+}
+
+.hello:hover {
+    color: chartreuse;
+    font-family: arial;
+    font-size: 30px;
+}
+
+.hello:active {
+    font-style: italic;
+}
+
+.hello:visited {
+    color: black;
+}
+
+/*pseudo-class yang berhubung dengan posisi elemen (1)
+:first-child
+memilih elemen pertama dari sebuat parent (elemen Pembungkusnya)
+:last-child
+memilih elemen terakhir dari sebuah parent (elemen pembungkus nya)
+:nth-child (n)
+memilih elemen ke-n dari sebuah parent (elemen pembungkus nya)
+
+n bisa berarti urutan (1), (2) ... atau pola (2n) (3n+2), (4n-1) atau 
+ganjil dan genap (even) & (odd)
+
+*/
+
+/* first-child */
+/* first ibu nya
+    child anak nya
+ */
+/*:first-child
+ memilih elemen pertama dari sebuat parent (elemen Pembungkusnya)
+  :first- child adalah link1 */
+
+li:first-child a {
+    color: chartreuse;
+}
+
+/*
+:last-child
+memilih elemen terakhir dari sebuah parent (elemen pembungkus nya)
+: last-child adalah link10 doang
+*/
+
+/* :nth-child (n)
+memilih elemen ke-n dari sebuah parent (elemen pembungkus nya)
+   :nth-child adalah kalau 2n berarti kelipatan 2 yang berwarna
+   kalau 3n berarti kelipatan 3 yang berwarna 
+   di dalam (even) genap (ood) ganjil
+   */
+li:nth-child(3n) a {
+    color: black;
+}
+
+/* kalau di sentuh dengan kursor akan 
+jadi merah odd ganjil nya */
+li:nth-child(odd) a:hover {
+    color: rgb(243, 9, 9);
+}
+
+
+/* :first-of-type
+memilih elemen pertama dari sebuah jenis / tipe tag
+: last-of-type
+memilih elemen terakhir dari sebuah jenis / tipe
+ */
+
+/* first-of-type p pertama*/
+/* memilih elemen pertama dari sebuah jenis / tipe tag */
+p:first-of-type {
+    color: blue;
+}
+
+/* : last-of-type pkedua
+memilih elemen terakhir dari sebuah jenis / tipe */
+
+p:last-of-type {
+    color: aqua
+}

@@ -1,0 +1,108 @@
+/* komentar yang ada di dalam Text Syteling */
+/* color= memberi warna pada tulisan */
+/* text-align= mrngatur format pada text */
+/*1.left= rata kiri
+2.right = rata kanan
+3.center= rata tengah
+4.justify= rata kiri dan kanan
+*/
+/* text-indent= memeri indentitas pada paragraf text
+1.px
+2.%
+*/
+
+/* text-decoration= mengatur dekorasi pada text 
+1.left= rata kiri
+2.right = rata kanan
+3.center= rata tengah
+4.justify= rata kiri dan kanan
+*/
+/* text-transform= mengubah jenis huruf menjadi huruf besar, kecil kapital
+1. none
+2. lowercase= huruf kecil semua
+3. uppercase= huruf besar semua
+4. capitalize= awal huruf kapital
+*/
+/* letter-spacing=mengatur spasi antar huruf 
+1.normal
+2.px
+*/
+/* word spacing= mengatur spasi antar kata 
+1. normal
+2. px
+*/
+
+/* CONTOH */
+
+/* color */
+/* nama warna*/
+/* 1. red, lightseagreen, royalblue,  */
+/* hexsadesimal */
+/* 2. #ff0000, #20b2aa,#4169e1 */
+/* rgb */
+/* 3. rgb{255,0,0}, rgb{32,178,170}, rgb{65,105,225},*/
+
+h1 {
+    font-size: 50px;
+    color: skyblue;
+}
+
+/* text-align= mrngatur format pada text */
+/*1.left= rata kiri
+2.right = rata kanan
+3.center= rata tengah
+4.justify= rata kiri dan kanan
+*/
+p {
+    text-align: center;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* text-indent= memeri indentitas pada paragraf text 
+memberi jarak paragraf
+1.px
+2.%
+*/
+/* text-decoration= mengatur dekorasi pada text
+1. none= menghilangkan garis bawah
+2. underline= garis bawah
+3. overline= aris atas
+4. line-through= garis tengah
+*/
+h2 {
+    text-decoration: underline;
+    text-indent: 100px;
+    font-size: 50px;
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* text-transform= mengubah jenis huruf menjadi huruf besar, kecil kapital 
+1. none
+2. lowercase= huruf kecil semua
+3. uppercase= huruf besar semua
+4. capitalize= awal huruf kapital
+*/
+h3 {
+    font-size: 50px;
+    color: blueviolet;
+    font-family: arial;
+    text-transform: uppercase;
+
+}
+
+/* letter-spacing=mengatur spasi antar huruf 
+1. normal
+2. px
+*/
+/* word spacing= mengatur spasi antar kata 
+1. normal
+2. px
+*/
+p {
+    word-spacing: 5px;
+}

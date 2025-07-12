@@ -1,0 +1,14 @@
+/*1.background-color 
+? Mengatur Warna pada background */
+/*2.background-image 
+? mengatur gambar yang akan di gunakan pada background */
+/*4.background-repeat 
+    ? Mengatur jenis pengulangan gambar pada background
+    ? bacground warna tipah sama background gambar
+    */
+
+body {
+    background-color: aqua;
+    background-image: url(Gambar/img1.png);
+    background-repeat: repeat-x;
+}

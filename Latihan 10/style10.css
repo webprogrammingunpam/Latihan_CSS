@@ -1,0 +1,58 @@
+/* yang hijau nimpah yang merah */
+p {
+  color: red;
+}
+p {
+  color: green;
+}
+
+/* #p1 lehih spesifik dari p
+jadi bukan warna hijauh tapi warna 
+merah  */
+/* cara menghitung nya adalah  */
+/* in line, id, classs, element */
+/*    0      0    0        0    */
+/*        in line, id, classs, element */
+/* #P1=     0      1     0         0   */
+/* p=       0      0     0         1   */
+/* jadi yang menang adalah #p1 karena 100 lebih unggul atau lebih berat dari 1/p */
+#p1 {
+  color: red;
+}
+p {
+  color: green;
+}
+
+ul#sarapan li {
+  color: green;
+}
+.favorit {
+  color: red;
+}
+/* jadi hijau semua tidak merah 
+kita hitung lagi*/
+
+/* ul#sarapan li */
+/*        in line, id, classs, element */
+/*     =     0      1     0         2   */
+/* VS */
+/* .Favorit */
+/*    =       0      0     1         0   */
+/* jadi yang menang adalah yang berat 102 lawan 10 */
+
+ul#makan li {
+  color: green;
+}
+ul#makan li.minum {
+  color: red;
+}
+
+/* ul#makan li */
+/*        in line, id, classs, element */
+/*     =     0      1     0         2   */
+/* VS */
+/* ul#makan li.minum */
+/*    =       0     1     1         2   */
+/* jadi yang menang adalah yang berat 112 lawan 102 */
+/* kakulator specificity */
+/* https://specificity.keegan.st */

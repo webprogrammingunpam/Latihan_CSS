@@ -1,0 +1,12 @@
+/* Anantomi CSS
+ {selector: properti: Value;}-->
+ <!--Contoh? h1 {color: blue; } -->
+ <!--h1 jadi selector, Color dai  
+ properti, blue jadi Value.
+*/
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+    text-align: center;
+    font-size: 30px;
+}

@@ -1,0 +1,12 @@
+body {
+  font-family: arial;
+  color: darkgrey;
+}
+/* <a href="#">kembali ke halaman utama</a>
+harus di tambah a {
+  color: inherit;
+}
+  biar mengikuti orang tua nya */
+a {
+  color: inherit;
+}
