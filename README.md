@@ -6,5 +6,7 @@
 ![Mumu](.vscode/CSS2..png)
 ## 3. Latihan 3 Penempatan CSS
 ![Mumu](.vscode/CSS3.png)
+## 4. Latihan 4 Font Styling
+![Mumu](.vscode/CSS4.png)
 
 
