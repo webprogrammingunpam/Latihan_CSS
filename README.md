@@ -8,5 +8,7 @@
 ![Mumu](.vscode/CSS3.png)
 ## 4. Latihan 4 Font Styling
 ![Mumu](.vscode/CSS4.png)
+## 5. Latihan 5 Text Styling
+![Mumu](.vscode/CSS5.png)
 
 
